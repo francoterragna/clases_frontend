@@ -1,0 +1,15 @@
+.parte-negra{
+    background-color: #000;
+    color: #fff;
+}
+
+nav{
+    background-color: orange;
+}
+
+.comederos{
+    background-color: orange;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
