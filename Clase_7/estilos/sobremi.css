@@ -1,0 +1,51 @@
+*{
+    font-family: 'Poppins';
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align: center;
+    background-color: #E6E6E6;
+}
+h1{
+    background-color: #c4c4c4;
+    margin-bottom: 0;
+    color: #005677;
+}
+
+li{
+    margin:5px;
+}
+
+.espacio-blanco{
+    height: 150px;
+    background-color: #fff;
+}
+
+ul li{
+    font-size: 15px;
+}
+
+.div-en-linea{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.cursiva-negrita{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subtitulos{
+    background-color: #c4c4c4;
+    color: #005677;
+}
+.formacion{
+    display: inline-block;
+}
+
+.negrita{
+    font-weight: bold;
+    margin-left: 15px;
+}
