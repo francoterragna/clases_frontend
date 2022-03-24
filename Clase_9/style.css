@@ -23,12 +23,66 @@ main{
     display:flex;
     justify-content:space-evenly;
     top: 150px;
+    flex-wrap: wrap;
 }
 
 .etiqueta{
-    border: 1px solid red;
     width: 300px;
     height: 527px;
     position: relative;
     border-radius: 16px 16px 0 0;
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.2);
+}
+
+.fondo-batman{
+    background-image: url('./imagenes/fondo-batman.png');
+    height: 40%;
+    background-repeat: no-repeat;
+}
+
+.foto-batman{
+    height: 90px;
+    width: 90px;
+    background-position: top;
+    background-size: 90px;
+    border-radius: 50%;
+    background-image: url('./imagenes/perfil-batman.png');
+    position:absolute;
+    left: 34%;
+    top: 150px;
+}
+
+.corazon{
+    position: absolute;
+    left: 20px;
+    top: 20px
+}
+
+.etiqueta h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.etiqueta p {
+    padding: 18px
+}
+
+.ver-mas{
+    padding:15px;
+    background-color: #00669f;
+    color:#fff;
+    width: 90px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.ver-mas:hover{
+    cursor:pointer;
+}
+
+footer{
+    height: 70px;
+    background-color: #00669f;
+    position: relative;
+    top:185px;
 }
