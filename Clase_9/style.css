@@ -8,14 +8,19 @@
 .descuentos{
     background-color: #1cd1b0;
     padding: 15px;
+    
 }
 
 .titulo{
     padding: 30px;
     background-color: #00669f ;
     box-shadow: 0px 10px 7px rgba(0,0,0,0.2);
+}
+
+header{
     position: sticky;
-    top: 20px;
+    top: 0px;
+    z-index:100;
 }
 
 main{
@@ -41,15 +46,28 @@ main{
 }
 
 .foto-batman{
+    background-image: url('./imagenes/perfil-batman.png');
+}
+
+.fondo-harley{
+    background-image: url('./imagenes/fondo-harley.png');
+    height: 40%;
+    background-repeat: no-repeat;
+}
+
+.foto-perfil{
     height: 90px;
     width: 90px;
     background-position: top;
     background-size: 90px;
     border-radius: 50%;
-    background-image: url('./imagenes/perfil-batman.png');
     position:absolute;
     left: 34%;
     top: 150px;
+}
+
+.foto-harley{
+    background-image: url('./imagenes/perfil-harley.png');
 }
 
 .corazon{
@@ -81,8 +99,16 @@ main{
 }
 
 footer{
-    height: 70px;
+    height: 100px;
     background-color: #00669f;
     position: relative;
-    top:185px;
+    top:200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+    margin: 0 auto;
+    align-self: center;
 }
