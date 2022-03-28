@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Helvetica';
 }
 
 header{
@@ -11,22 +12,126 @@ header{
     justify-content: space-between;
 }
 
-.parte-derecha{
+.parte-derecha-nav{
     display: flex;
     align-items: center;
 }
 
-.parte-derecha p {
+.parte-derecha-nav p {
     color: #fff;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-.parte-izquierda{
+.parte-izquierda-nav{
     display: flex;
     align-items: center;
     margin: 0 10px
 }
 
-.parte-izquierda img {
+.parte-izquierda-nav img {
     margin: 0 10px;
+}
+
+main{
+    display: flex;
+}
+
+.foto-pizzero{
+    height: 500px;
+    width: 45%;
+    background-image: url('./imagenes/delivery.jpg');
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.foto-pizzero h2 {
+    top: 40px;
+    left: 30px;
+    position: absolute;
+    font-size: 30px;
+}
+
+h2{
+    color:#fff
+}
+
+.letra-roja{
+    color: red;
+}
+
+.podio{
+    height: 500px;
+    width: 45%;
+    margin: 30px;
+    position: relative;
+}
+
+.podio h2{
+    color: red;
+    position: absolute;
+    top: 55px;
+    left: 270px;
+    font-size: 30px;
+}
+
+h3{
+    position: absolute;
+    font-size: 25px;
+    left:170px;
+    top: 200px;
+}
+
+.caja-podio{
+    width: 80%;
+    position:absolute;
+    height: 280px;
+    top: 200px;
+    left: 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja-podio-izq{
+    align-self: center;
+}
+
+.caja-podio-izq ol li{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.caja-podio-der{
+    background-image: url('./imagenes/PizzaFalling.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 150px;
+    align-self: center;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.list-footer{
+    color:#fff;
+}
+
+.list-footer p{
+    padding: 10px 0 0 10px;
+}
+
+.pizza-footer{
+    object-fit: cover;
+    width: 180px;
+}
+
+footer img {
+    width: 120px;
+    height: 120px;
 }
