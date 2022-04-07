@@ -7,8 +7,8 @@
 
 header{
     background-color: #F0A83E;
-    height: 7.5vh;
-     display: flex;
+    height: 40px;
+    display: flex;
     justify-content: space-between; 
 }
 
@@ -123,11 +123,51 @@ form h2{
     background-color: #F0A83E;
 }
 
+h3{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0 0 8px;
+}
+
 .form-suscripcion{
     display: block;
+    margin-top: 10px;
 }
 
 .form-suscripcion input:first-child{
+ width: 60%;
+ background-color: #fff;
+ border: none;
+ border-radius: 12px;
+}
 
+.form-suscripcion input:last-child{
+    width: 30%;
+    border:none;
+    border-radius: 12px;
+}
+
+footer{
+    background-color:#3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0 15px 55px;
+}
+
+footer img:first-child{
+    align-self: center;
+    border: 1px solid red;
+}
+
+.ultimo-p{
+    display: block;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
 }
 
