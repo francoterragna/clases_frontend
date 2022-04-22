@@ -1,4 +1,4 @@
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 @import url('https://use.fontawesome.com/releases/v6.1.0/css/all.css');
 
@@ -10,7 +10,7 @@ body{
 }
 
 .cabecera{
-    /* background-color: #E6E6E6; */
+    background-color: #E6E6E6; 
     background-attachment: fixed, scroll;
     background-image: url('../img/foto-personal.png'), url('../img/baticueva.jpg');
     background-position: top;
@@ -60,3 +60,4 @@ footer{
     color: white;
     text-align: center;
 }
+

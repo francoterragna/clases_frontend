@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.0/css/all.css');
+
+@include tamañoYColor($tamaño, $color){
+    font-size: $tamaño;
+    color: $color;
+}
+
+$colorLetra: #fff;
+
+%span-general{
+    color:#F00;
+    font-size: 20px;
+}
+
+span{
+    @extend %span-general;
+}
+
+footer{
+    background-color: #005677;
+    color: $colorLetra;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: $colorLetra;
+        margin-left: 30px;
+    }
+}

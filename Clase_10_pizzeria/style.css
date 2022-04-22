@@ -1,8 +1,11 @@
 *{
-    margin:0;
-    padding:0;
     box-sizing: border-box;
     font-family: 'Helvetica';
+    margin:0;
+    padding:0;
+}
+body{
+    min-width: 400px;
 }
 
 header{
@@ -10,11 +13,12 @@ header{
     display: flex;
     height: 100px;
     justify-content: space-between;
+    min-width: 400px
 }
 
 .parte-derecha-nav{
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .parte-derecha-nav p {
@@ -23,8 +27,8 @@ header{
 }
 
 .parte-izquierda-nav{
-    display: flex;
     align-items: center;
+    display: flex;
     margin: 0 10px
 }
 
@@ -34,6 +38,8 @@ header{
 
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .foto-pizzero{
